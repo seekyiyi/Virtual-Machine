@@ -3,11 +3,11 @@
 ##Process VM 虛擬程序:
 只能模擬執行一個Process的行為，可能是為了支援舊 Architecture 上的 Application。 ex: Apple Rosetta
 也可能是為了可以在多個平台上執行 ex: Java Virtual Machine
-@[Process VM](http://i.imgur.com/LjMoeLJ.jpg)
+!@[Process VM](http://i.imgur.com/LjMoeLJ.jpg)
 
 ##System VM 虛擬系統:
 擬的是一個完整的OS, 需要更複雜的處理。 ex: VMWare, Xen, KVM
-@[System VM](http://i.imgur.com/IM0OiSU.jpg)
+!@[System VM](http://i.imgur.com/IM0OiSU.jpg)
 
 System VM區分為**Hosted Architecture(寄居架構)**及及**Bare Metal Architecture(裸金屬架構)**
 
@@ -20,7 +20,7 @@ System VM區分為**Hosted Architecture(寄居架構)**及及**Bare Metal Archit
 *缺點:安裝和運行應用程序依賴於主機操作系統對設備的支持，性能有耗損。
 *例子:Vitual PC, Virtual Box, VMware Workstation 7, KVM, OpenNebula, OpenStack, and Proxmox Virtual Server。
 
-@[Hosted Architecture](http://i.imgur.com/ZZGb2ZU.png)
+!@[Hosted Architecture](http://i.imgur.com/ZZGb2ZU.png)
 
 #Bare Metal Architecture
 實體層的虛擬化，類似一個操作於虛擬合心上的操作系統。
@@ -33,6 +33,6 @@ System VM區分為**Hosted Architecture(寄居架構)**及及**Bare Metal Archit
 *缺點:虛擬層核心開發難度較大。
 *例子:VMware ESX, Hyper‐V R2, Citrix XenServer, Xen, and KVM(後期)。
 
-@[Bare Metal Architecture](http://i.imgur.com/rx0dBNP.png)
+!@[Bare Metal Architecture](http://i.imgur.com/rx0dBNP.png)
 
 備註:VMM (Virtual Machine Monitor)監視 VM 的運作狀況
