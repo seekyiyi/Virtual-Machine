@@ -35,4 +35,4 @@ System VM區分為**Hosted Architecture(寄居架構)**及及**Bare Metal Archit
 
 ![Bare Metal Architecture](http://i.imgur.com/rx0dBNP.png)
 
-備註:VMM (Virtual Machine Monitor)監視 VM 的運作狀況
+備註:**VMM (Virtual Machine Monitor)監視 VM 的運作狀況**
