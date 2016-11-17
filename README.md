@@ -6,7 +6,7 @@
 ![Process VM](http://i.imgur.com/LjMoeLJ.jpg)
 
 ##System VM 虛擬系統:
-擬的是一個完整的OS, 需要更複雜的處理。 ex: VMWare, Xen, KVM
+是一個完整的OS, 需要更複雜的處理。 ex: VMWare, Xen, KVM
 ![System VM](http://i.imgur.com/IM0OiSU.jpg)
 
 System VM區分為**Hosted Architecture(寄居架構)**及及**Bare Metal Architecture(裸金屬架構)**
